@@ -5,7 +5,7 @@
 }
 
 
-.clearfix {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
@@ -68,17 +68,19 @@
 /* main */
 .cont-main {
     width: 100%;
-    height: 80vh;  
+    height: 100$;  
 }
 
 .info {
-    width: 100%;
+    width: 84%;
     height: 100%;
     margin-left: 16%;
 }
 
+/* lista  */
+
 .main-menu {
-    width: 84%;
+    width: 100%;
     height: 5vh;
 }
 
@@ -91,24 +93,51 @@
 }
 
 .menu ul {
+    width: 100%;
     display: flex;
     list-style-type: none;
-    align-items: center
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu li {
-    margin-left: 20%;
-
+    max-width: 100%;
+    margin-left: 10%;
 }
 
-/* fine main */
+/* fine lista  */
 
-/* footer */
+.overflow {
+    width: 100%;
+    
+}
 
-.cont-footer {
+.playlist {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.album {
+    float: left;
+    margin-right: 20px;
+}
+
+.album img {
+    width: 10vw;
+    height: 10vw;
+}
+
+.cont-end {
+    bottom: 0;
     width: 100%;
     height: 10vh;
     position: fixed;
 }
 
-/* fine footer  */
+/* fine main */
+
+
+
+
+
+
