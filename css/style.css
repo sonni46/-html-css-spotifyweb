@@ -3,3 +3,85 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* debug  */
+
+#teal {
+    background-color: teal;
+}
+
+#blu {
+    background-color: blue;
+}
+
+#tomato {
+    background-color: tomato;
+}
+
+#violet {
+    background-color:violet;
+}
+
+
+/* debug */
+
+
+/* header  */
+
+.cont-head {
+    width: 100%;
+    height: 5vw;
+   
+}
+
+.cont-head a {
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.cont-menu {
+    position: fixed;
+    width: 15%;
+    height: 81vh;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+/* fine header  */
+
+/* main */
+.cont-main {
+    width: 100%;
+    height: 70vh;
+    
+}
+
+.main-menu {
+
+}
+
+
+
+
+
+/* fine main */
+
+/* footer */
+
+.cont-footer {
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    z-index: 999;
+}
+
+/* fine footer  */
