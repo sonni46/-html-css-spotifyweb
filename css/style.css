@@ -25,6 +25,14 @@
     background-color: tomato;
 }
 
+#green {
+    background-color: seagreen;
+}
+
+#orange {
+    background-color: rgb(255, 179, 0);
+}
+
 #violet {
     background-color:violet;
 }
@@ -50,10 +58,9 @@
 .cont-menu {
     position: fixed;
     width: 15%;
-    height: 81vh;
+    height: 91vh;
     display: flex;
     flex-direction: column-reverse;
-
 }
 
 /* fine header  */
@@ -61,17 +68,38 @@
 /* main */
 .cont-main {
     width: 100%;
-    height: 70vh;
-    
+    height: 80vh;  
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    margin-left: 16%;
 }
 
 .main-menu {
+    width: 84%;
+    height: 5vh;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center
+}
 
+.menu li {
+    margin-left: 20%;
 
-
+}
 
 /* fine main */
 
@@ -79,9 +107,8 @@
 
 .cont-footer {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     position: fixed;
-    z-index: 999;
 }
 
 /* fine footer  */
