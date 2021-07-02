@@ -175,18 +175,32 @@
     align-items: center;
 }
 
+.nbrano {
+    display: flex;
+    margin: 0 10px;
+    flex-direction: column;
+}
+
 .margin-end {
     display: flex;
     margin: 0 20px;
 }
 
-.margin-end .fas {
+/* bottoni time bar  */
 
+.fa-random,
+.fa-step-backward,
+.fa-step-forward,
+.fa-redo-alt {
+    font-size: 25px;
+    margin: 5px 20px;
 }
 
-.play-bar {
-
+.fa-play-circle {
+    font-size: 40px;
 }
+
+/* bottoni time bar  */
 
 .margin-end img {
     width: 2.5vw;
@@ -197,6 +211,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+}
+
+.cont-bar-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -215,14 +236,12 @@
     align-items: center;
 }
 
-
 #inter-bar {
     background-color: rgb(0, 255, 13);
     border-radius: 20px;
     width: 5vw;
     height: 0.3vw;
 }
-
 
 .right-bar {
     width: 10vw;
