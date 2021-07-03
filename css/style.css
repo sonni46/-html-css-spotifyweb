@@ -235,9 +235,23 @@ body {
 }
 
 .green-border {
-    border-bottom-width:10px;
-    border-bottom:2px solid rgb(0, 255, 0) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(167,163,163);
 }
+
+.green-border span {
+    padding-bottom: 1px;
+}
+
+
+#b-green {
+    width: 2vw;
+    border-top:1px solid chartreuse;
+}
+
 
 /* fine lista  */
 
