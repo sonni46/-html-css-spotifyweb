@@ -33,15 +33,23 @@
     background-color: rgb(255, 179, 0);
 }
 
-#violet {
+/* #violet {
     background-color:violet;
-}
+} */
 
 
 /* debug */
 
+/* main  */
 
-/* header  */
+.cont-menu {
+    position: fixed;
+    width: 15%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
 
 .cont-head {
     width: 100%;
@@ -54,15 +62,7 @@
     float: right;
 }
 
-.cont-menu {
-    position: fixed;
-    width: 15%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-}
-
+    
 .margin-menu {
     width: 100%;
     margin-left: 3%;
@@ -101,9 +101,6 @@
     font-size: 30px;
 }
 
-/* fine header  */
-
-/* main */
 .cont-main {
     width: 100%;
     height: 100%;  
@@ -161,13 +158,16 @@
     height: 10vw;
 }
 
+/* barra di riproduzione  */
+
 .cont-end {
     bottom: 0;
     width: 100%;
     height:10vh;
     position: fixed;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    background-color: rgb(63, 60, 60);
 }
 
 .brano {
@@ -181,12 +181,32 @@
     flex-direction: column;
 }
 
+.folder-heart {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-heart,
+.fa-folder {
+    margin: 2px 5px;
+    color: rgb(122,112,112);
+    font-size: 20px;
+
+}
+
 .margin-end {
     display: flex;
     margin: 0 20px;
 }
 
 /* bottoni time bar  */
+
+.play-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    color: rgb(255, 253, 253);
+}
 
 .fa-random,
 .fa-step-backward,
@@ -200,7 +220,7 @@
     font-size: 40px;
 }
 
-/* bottoni time bar  */
+/* fine bottoni time bar  */
 
 .margin-end img {
     width: 2.5vw;
@@ -214,6 +234,21 @@
     justify-content: center;
 }
 
+.center-bar {
+    width: 20vw;
+    height: 0.3vw;
+    margin: 0 10px;
+}
+
+.cont-center-bar {
+    display: flex;
+    align-items: center;
+}
+
+.cont-center-bar span {
+    color: white;
+}
+
 .cont-bar-right {
     display: flex;
     align-items: center;
@@ -221,34 +256,34 @@
     justify-content: center;
 }
 
+.cont-bar-right .fas {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 #bar {
-    background-color: red;
+    background-color: rgb(122,112,112);
     border-radius: 20px;
 }
 
-.center-bar {
-    width: 20vw;
-    height: 0.3vw;
-    margin: 0 10px;
-}
-.cont-center-bar {
-    display: flex;
-    align-items: center;
+    
+.cont-bar-right #inter-bar {
+    width: 2vw;
 }
 
 #inter-bar {
-    background-color: rgb(0, 255, 13);
+    background-color: white;
     border-radius: 20px;
     width: 5vw;
     height: 0.3vw;
 }
 
 .right-bar {
-    width: 10vw;
+    width: 8vw;
     height: 0.3vw;
 }
 
-
+/* fine barra di riproduzione  */
 
 /* fine main */
 
