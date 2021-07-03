@@ -11,6 +11,14 @@
     display: table;
 }
 
+body {
+    overflow: hidden;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
 /* debug  */
 
 #teal {
@@ -42,6 +50,12 @@
 
 /* main  */
 
+.overflow {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+}
+
 .cont-menu {
     position: fixed;
     width: 15%;
@@ -61,8 +75,7 @@
     text-decoration: none;
     float: right;
 }
-
-    
+  
 .margin-menu {
     width: 100%;
     margin-left: 3%;
@@ -103,12 +116,10 @@
 
 .cont-main {
     width: 100%;
-    height: 100%;  
 }
 
 .info {
-    width: 84%;
-    height: 100%;
+    width: 100%;
     margin-left: 16%;
 }
 
@@ -179,6 +190,11 @@
     display: flex;
     margin: 0 10px;
     flex-direction: column;
+    color: white;
+}
+
+#light-black {
+    color: rgb(129, 127, 127);
 }
 
 .folder-heart {
@@ -189,7 +205,7 @@
 .fa-heart,
 .fa-folder {
     margin: 2px 5px;
-    color: rgb(122,112,112);
+    color: rgb(167,163,163);
     font-size: 20px;
 
 }
@@ -259,6 +275,7 @@
 .cont-bar-right .fas {
     margin-right: 10px;
     font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 
 #bar {
