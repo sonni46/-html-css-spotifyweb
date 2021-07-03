@@ -255,10 +255,16 @@ body {
 
 /* fine lista  */
 
+/* album  */
+
 
 .playlist {
     width: 100%;
     padding: 10px 10px;
+}
+
+.generi {
+    color: white;
 }
 
 .album {
@@ -266,10 +272,20 @@ body {
     margin-right: 20px;
 }
 
-.album img {
-    width: 10vw;
-    height: 10vw;
+.album h3 {
+    color:white
 }
+
+.album p {
+  color: rgb(167,163,163) ;
+}
+
+.album img {
+    width: 12vw;
+    height: 13vw;
+}
+
+/* fine album  */
 
 /* barra di riproduzione  */
 
