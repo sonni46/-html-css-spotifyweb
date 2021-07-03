@@ -62,7 +62,6 @@ body {
     height: 90vh;
     display: flex;
     flex-direction: column;
-    font-size: 25px;
     background-color: black;
 }
 
@@ -79,8 +78,9 @@ body {
 }
   
 .margin-menu {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    margin-left: 3%;
 }
 
 .logo img {
@@ -92,14 +92,50 @@ body {
 .h-menu {
     margin-top: 5%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     color:rgb(167,163,163);
 }
 
+.home {
+    display: flex;
+    align-items: center;
+    border-left: 3px solid green;
+    margin-top: 10px;
+}
+
+.ricerca,
+.libreria {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.add-libreria {
+    margin-top: 20px;
+    color:rgb(167,163,163);
+    margin-left: 10px;
+}
+
+.add-libreria p {
+    margin-bottom: 10px;
+}
+
+.crea-playlist {
+    display: flex;
+    align-items: center;
+}
+
+.crea-playlist .fas {
+    font-size: 50px;
+    margin: 10px 0;
+    margin-right: 10px;
+}
+
 .h-menu img {
-    width:2vw;
-    height:2vw;
+    width: 2.5vw;
+    height: 2vw;
     filter: brightness(0.5);
+    margin-right: 8px;
 }
 
 .liste {
@@ -117,8 +153,38 @@ body {
     margin-left: 12px;
 }
 
-.fas {
-    font-size: 30px;
+.instal {
+    position: fixed;
+    bottom: 100px;
+    margin-left: 10px;
+}
+
+.scarica {
+    width: 12vw;
+    color: rgb(167,163,163);
+    border-bottom: 1px solid rgb(167,163,163);
+    padding-bottom: 10px;
+}
+
+.profili {
+    width: 14vw;
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+
+.scarica img {
+    width: 1vw;
+    height: 1vw
+}
+
+.profili img {
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #837e7e;
+    border-radius: 20px;
+    margin-right: 10px;
 }
 
 .cont-main {
@@ -129,7 +195,6 @@ body {
 .info {
     width: 100%;
     margin-left: 16%;
-    
 }
 
 /* lista  */
