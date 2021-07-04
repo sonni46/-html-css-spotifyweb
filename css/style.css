@@ -50,6 +50,23 @@ body {
 
 /* main  */
 
+
+/* hover  *//* hover  *//* hover  *//* hover  */
+
+.white-ov:hover {
+    color: white;
+}
+
+.white-ov-menu:hover{
+    color: white;
+}
+
+.white-ov-menu:hover img {
+    filter:none;
+}
+
+
+/*fine  hover  *//*fine  hover  *//*fine  hover  */
 .overflow {
     overflow-y: scroll;
     width: 100%;
@@ -105,6 +122,7 @@ body {
     align-items: center;
     border-left: 3px solid green;
     margin-top: 10px;
+    color: white;
 }
 
 .ricerca,
@@ -112,6 +130,13 @@ body {
     display: flex;
     align-items: center;
     margin-top: 10px;
+}
+
+.h-menu img {
+    width: 2.5vw;
+    height: 2vw;
+    filter: brightness(0.5);
+    margin-right: 8px;
 }
 
 .add-libreria {
@@ -135,12 +160,6 @@ body {
     margin-right: 10px;
 }
 
-.h-menu img {
-    width: 2.5vw;
-    height: 2vw;
-    filter: brightness(0.5);
-    margin-right: 8px;
-}
 
 .liste {
     color:rgb(167,163,163);
@@ -270,6 +289,10 @@ body {
     color: white;
 }
 
+#info-generi {
+    color: rgb(167,163,163);
+}
+
 .album {
     position: relative;
     float: left;
@@ -283,8 +306,8 @@ body {
     width:12.1vw;
     height:13vw;
     background-color: rgba(0, 0, 0, 0.616);
-    top: 43%;
-    left: 50%;
+    top: 6.5vw;
+    left: 6vw;
     transform: translate(-50%,-50%);
     z-index: 2;
 }
@@ -335,6 +358,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: rgb(63, 60, 60);
+    z-index: 999;
 }
 
 .brano {
