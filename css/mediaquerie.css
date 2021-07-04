@@ -1,0 +1,7 @@
+@media screen and (max-width: 982px) {
+    .playlist {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+}
