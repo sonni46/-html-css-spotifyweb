@@ -65,6 +65,22 @@ body {
     filter:none;
 }
 
+.big:hover {
+    font-size: 45px;
+}
+
+.green-bar:hover {
+    background-color: rgb(2, 195, 2);
+}
+
+.botto-ov:hover .bottone {
+    display: inline;
+}
+
+.big-update:hover {
+    font-size: 20px;
+}
+
 
 /*fine  hover  *//*fine  hover  *//*fine  hover  */
 .overflow {
@@ -225,7 +241,7 @@ body {
     margin-left: 16%;
 }
 
-/* lista  */
+/* lista  *//* lista  *//* lista  *//* lista  *//* lista  */
 
 .main-menu {
     width: 100%;
@@ -274,9 +290,9 @@ body {
 }
 
 
-/* fine lista  */
+/* fine lista  *//* fine lista  *//* fine lista  *//* fine lista  */
 
-/* album  */
+/* album  *//* album  *//* album  *//* album  *//* album  *//* album  */
 
 
 .playlist {
@@ -346,9 +362,9 @@ body {
 
 }
 
-/* fine album  */
+/* fine album  *//* fine album  *//* fine album  *//* fine album  */
 
-/* barra di riproduzione  */
+/* barra di riproduzione  *//* barra di riproduzione  *//* barra di riproduzione  */
 
 .cont-end {
     bottom: 0;
@@ -373,7 +389,7 @@ body {
     color: white;
 }
 
-#light-black {
+.light-black {
     color: rgb(129, 127, 127);
 }
 
@@ -395,7 +411,7 @@ body {
     margin: 0 20px;
 }
 
-/* bottoni time bar  */
+/* bottoni time bar  *//* bottoni time bar  *//* bottoni time bar  */
 
 .play-bar {
     display: flex;
@@ -416,7 +432,7 @@ body {
     font-size: 40px;
 }
 
-/* fine bottoni time bar  */
+/* fine bottoni time bar  *//* fine bottoni time bar  *//* fine bottoni time bar  */
 
 .margin-end img {
     width: 2.5vw;
@@ -464,28 +480,46 @@ body {
 }
 
     
-.cont-bar-right #inter-bar {
+.cont-bar-right .inter-bar {
     width: 2vw;
 }
 
-#inter-bar {
+.inter-bar {
     background-color: white;
     border-radius: 20px;
-    width: 5vw;
+    width: 6vw;
     height: 0.3vw;
 }
 
 .right-bar {
-    width: 8vw;
+    width: 5vw;
     height: 0.3vw;
 }
 
-/* fine barra di riproduzione  */
+.bottone {
+    display: none;
+    bottom: 18%;
+    right: 55%;
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.right-bar .inter-bar .bottone {
+    bottom: 40%;
+    right: 3.5%;
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+
+/* fine barra di riproduzione  *//* fine barra di riproduzione  */
 
 /* fine main */
-
-
-
-
-
-
