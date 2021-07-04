@@ -161,6 +161,7 @@ body {
     position: fixed;
     bottom: 100px;
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .scarica {
@@ -196,6 +197,7 @@ body {
 
 .cont-main {
     width: 100%;
+    height: 150vh;
     background-color: #141922;
 }
 
@@ -261,6 +263,7 @@ body {
 .playlist {
     width: 100%;
     padding: 10px 10px;
+    margin-bottom: 5%;
 }
 
 .generi {
@@ -268,8 +271,38 @@ body {
 }
 
 .album {
+    position: relative;
     float: left;
     margin-right: 20px;
+    text-align: center;
+}
+
+.cont-black {
+    display: none;
+    position:absolute;
+    width:12.1vw;
+    height:13vw;
+    background-color: rgba(0, 0, 0, 0.616);
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+
+.cont-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+
+.cont-over .far {
+    font-size: 100px;
+}
+
+.album:hover .cont-black {
+     display: inline-block;
 }
 
 .album h3 {
@@ -283,6 +316,11 @@ body {
 .album img {
     width: 12vw;
     height: 13vw;
+}
+
+#circol {
+    border-radius: 50%;
+
 }
 
 /* fine album  */
