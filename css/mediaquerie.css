@@ -4,4 +4,96 @@
         flex-wrap: wrap
     }
 
+    .album img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .cont-black {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.616);
+    top: 6.5vw;
+    left: 6vw;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    }
+}
+
+
+
+
+@media screen and (max-width: 772px) {
+
+    .m-menu {
+        padding: 2% 15%;
+    }
+
+    .cont-head a {
+        margin: 9px 10px;
+    }
+
+    .log-big {
+        display: none;
+    }
+
+    .log-smal {
+        display: inline;
+    }
+
+    .generi {
+        padding-top: 15%;
+    }
+
+    .cont-main {
+        height: 225vh;
+    }
+
+    .cont-menu {
+        width: 50px;
+    }
+
+    .add-libreria {
+        display: none;
+    }
+
+    .home {
+        border-left:none;
+    }
+
+    .h-menu img {
+        margin-left: 5px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .h-menu span {
+        display: none;
+    }
+
+    .instal .scarica {
+        border-bottom: none;
+    }
+
+    .instal span { 
+        display: none;
+    }
+
+    .instal img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .pad-top {
+        padding-top: 5%;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .cont-head {
+        height: 60px;
+    }
 }

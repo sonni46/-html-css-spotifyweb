@@ -126,6 +126,10 @@ body {
     margin-top: 20px;
 }
 
+.log-smal {
+    display:none;
+}
+
 .h-menu {
     margin-top: 5%;
     display: flex;
@@ -238,7 +242,7 @@ body {
 
 .info {
     width: 100%;
-    margin-left: 16%;
+    padding-left: 16%;
 }
 
 /* lista  *//* lista  *//* lista  *//* lista  *//* lista  */
@@ -253,7 +257,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    margin: 0 20%;
+    padding: 0 20%;
 
 }
 
@@ -279,14 +283,10 @@ body {
     color: rgb(167,163,163);
 }
 
-.green-border span {
-    padding-bottom: 1px;
-}
-
 
 #b-green {
-    width: 2vw;
-    border-top:1px solid chartreuse;
+    /* width: 2vw; */
+    border-bottom:1px solid chartreuse;
 }
 
 
