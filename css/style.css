@@ -221,7 +221,6 @@ body {
     align-items: center
 }
 
-
 .scarica img {
     width: 1vw;
     height: 1vw;
@@ -314,7 +313,13 @@ body {
 .album {
     position: relative;
     float: left;
+    margin-top: 20px;
     margin-right: 20px;
+    text-align: center;
+}
+
+.rock {
+    width: 200px;
     text-align: center;
 }
 
